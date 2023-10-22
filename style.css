@@ -65,18 +65,18 @@ h1{
     .site{
         padding: 40px 0px 0px 0px;
     }
-    .lien h1{
+    .site .lien h1{
         width: 550px;
-}
-.lien{
-    padding: 0px 0px 0px 12px;
     }
-.imag{
-    position: relative;
-    right: 60px;
-}
-.image h2,h3{
-    position: relative;
-    right: 60px;
-}
+    .lien{
+        padding: 0px 0px 0px 12px;
+    }
+    .imag{
+        position: relative;
+        right: 60px;
+    }
+    .image h2,h3{
+        position: relative;
+        right: 60px;
+    }
 }
