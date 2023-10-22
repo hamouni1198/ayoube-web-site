@@ -61,7 +61,7 @@ h1{
     color:#000000;
 }
 
-@media  (max-width: 324px) {
+@media  (max-width: 224px) {
     .site{
         padding: 40px 0px 0px 0px;
     }
