@@ -61,7 +61,7 @@ h1{
     color:#000000;
 }
 
-@media screen and (max-width: 300px) {
+@media  (max-width: 340px) {
     .site{
         padding: 40px 0px 0px 0px;
     }
