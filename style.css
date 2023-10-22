@@ -61,7 +61,7 @@ h1{
     color:#000000;
 }
 
-@media (min-width: 200px) and (max-width: 497px) {
+@media (max-width: 300px) {
     .lien h1{
         width: 480px;
         position: relative;
