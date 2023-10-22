@@ -21,18 +21,18 @@ h1{
     height: 120px;
     border-radius: 100%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 170px;
+    margin-top: 17px;
 }
 .site  h3{
-
-    text-align: center;
+    position: relative;
+    left: 159px;
     font-size: 18px;
     font-weight: 800;
 }
 .site  h2{
-    
-    text-align: center;
+    position: relative;
+   left: 138px;
     font-size: 19px;
     font-weight: 200;
     font-family: 'Kanit', sans-serif;
@@ -40,6 +40,7 @@ h1{
 .lien{
    text-align: center;
    line-height: 40px;
+   padding-left: 10px;
 }
 .lien a{
     text-decoration: none;
@@ -51,8 +52,7 @@ h1{
     font-weight: 200;
     border: 1px white solid;
     border-radius: 40px;
-    width: 680px;
-    
+    width: 390px;
     font-family: 'Kanit', sans-serif; 
     transition: all.5s;
 }
@@ -61,22 +61,3 @@ h1{
     color:#000000;
 }
 
-@media  (max-width: 224px) {
-    .site{
-        padding: 40px 0px 0px 0px;
-    }
-    .site .lien h1{
-        width: 545px;
-    }
-    .lien{
-        padding: 0px 0px 0px 12px;
-    }
-    .imag{
-        position: relative;
-        right: 60px;
-    }
-    .image h2,h3{
-        position: relative;
-        right: 60px;
-    }
-}
