@@ -61,12 +61,12 @@ h1{
     color:#000000;
 }
 
-@media  (max-width: 624px) {
+@media  (max-width: 324px) {
     .site{
         padding: 40px 0px 0px 0px;
     }
     .site .lien h1{
-        width: 550px;
+        width: 545px;
     }
     .lien{
         padding: 0px 0px 0px 12px;
