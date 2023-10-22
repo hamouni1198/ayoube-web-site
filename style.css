@@ -61,10 +61,19 @@ h1{
     color:#000000;
 }
 
-@media (max-width: 300px) {
+@media screen and (max-width: 300px) {
     .lien h1{
-        width: 480px;
-        position: relative;
-        left: 90px;
+        width: 550px;
 }
- }
+.lien{
+    padding: 0px 0px 0px 12px;
+}
+.imag{
+    position: relative;
+    right: 60px;
+}
+.image h2,h3{
+    position: relative;
+    right: 60px;
+}
+}
