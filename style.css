@@ -8,56 +8,59 @@ body{
     color: white;
     background-attachment: fixed;
     }
-h1{
-    font-size: 15px;
-}
-.site{
-    margin: 0 auto;
-    width: 686px;
-}
+    @media (max-width: 414px){
 
-.site .imag{
-    width: 120px;
-    height: 120px;
-    border-radius: 100%;
-    display: block;
-    margin-left: 170px;
-    margin-top: 17px;
-}
-.site  h3{
-    position: relative;
-    left: 159px;
-    font-size: 18px;
-    font-weight: 800;
-}
-.site  h2{
-    position: relative;
-   left: 138px;
-    font-size: 19px;
-    font-weight: 200;
-    font-family: 'Kanit', sans-serif;
-}
-.lien{
-   text-align: center;
-   line-height: 40px;
-   padding-left: 10px;
-}
-.lien a{
-    text-decoration: none;
-    color: white;
-}
-.lien h1{
-    
-    font-size: 20px;
-    font-weight: 200;
-    border: 1px white solid;
-    border-radius: 40px;
-    width: 390px;
-    font-family: 'Kanit', sans-serif; 
-    transition: all.5s;
-}
-.lien h1:hover{
-    background-color: white;
-    color:#000000;
-}
+        h1{
+            font-size: 15px;
+        }
+        .site{
+            margin: 0 auto;
+            width: 686px;
+        }
+        
+        .site .imag{
+            width: 120px;
+            height: 120px;
+            border-radius: 100%;
+            display: block;
+            margin-left: 170px;
+            margin-top: 17px;
+        }
+        .site  h3{
+            position: relative;
+            left: 159px;
+            font-size: 18px;
+            font-weight: 800;
+        }
+        .site  h2{
+            position: relative;
+           left: 138px;
+            font-size: 19px;
+            font-weight: 200;
+            font-family: 'Kanit', sans-serif;
+        }
+        .lien{
+           text-align: center;
+           line-height: 40px;
+           padding-left: 10px;
+        }
+        .lien a{
+            text-decoration: none;
+            color: white;
+        }
+        .lien h1{
+            
+            font-size: 20px;
+            font-weight: 200;
+            border: 1px white solid;
+            border-radius: 40px;
+            width: 390px;
+            font-family: 'Kanit', sans-serif; 
+            transition: all.5s;
+        }
+        .lien h1:hover{
+            background-color: white;
+            color:#000000;
+        }
 
+    }        
