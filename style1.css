@@ -85,9 +85,6 @@ body{
     padding-bottom: 50px;
   }
   
-  
- 
- 
 .cantact{
   text-align: center;
   color: black;
@@ -117,8 +114,7 @@ body{
 .part2{
   display: flex;
   justify-content: center;
-    gap: px;
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .part2 form input {
@@ -194,7 +190,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  width: 520px;
+  width: 510px;
   height: 550px;
   border-radius: 10px;
 
@@ -216,7 +212,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  width: 520px;
+  width: 510px;
   height: 550px;
   border-radius: 10px;
 
@@ -247,7 +243,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  width: 520px;
+  width: 510px;
   height: 550px;
   border-radius: 10px;
 }
@@ -268,4 +264,110 @@ body{
   width: 520px;
   height: 550px;
   border-radius: 10px;
+}
+@media (max-width: 414px){
+  body{
+    width: 414px;
+  }
+  .navbar{
+    display: none;
+    width: 414px;
+  }
+  .video{
+    width: 414px;
+  }
+  .about{
+    width: 414px;
+  }
+  .cantact{
+    width: 414px;
+  }
+  .video video {
+    position: relative;
+    height: 300px;
+    top: 0px;
+  }
+  .about p{
+    text-indent: 5px;
+  }
+  .work{
+    width: 414px
+  }
+   .work .img1 {
+    display: inline;
+    
+    
+  }
+  .work .imag1{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag2{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag3{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag4{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag5{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag6{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag7{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag8{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .work .imag9{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+    
+  }
+  .service{
+    width: 414px;
+    gap: 40px;
+  }
+  .cantact h1{
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  .part2{
+    width: 414px;
+    display: inline;
+  }
+  
+  .part2 form input {
+    width: 350px;
+    margin-left: 10px;
+  }
+  
+   .part2 form textarea{
+    width:350px;
+    height: 70px;
+    margin-left: 10px; 
+  }
+  
+  
 }
