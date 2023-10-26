@@ -354,10 +354,13 @@ body{
     gap: 0px;
     display: inline;
   }
+  .service h1{
+    font-size: 15px;
+  }
   
  
   .cantact h1{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 100;
     letter-spacing: 2px;
   }
