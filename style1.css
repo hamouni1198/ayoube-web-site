@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&family=Poppins:ital,wght@1,100&display=swap');
+
+
 body{
     padding: 0px;
     margin: 0px;
@@ -48,9 +52,13 @@ body{
     bottom: 50px;
     padding-top: 50px;
     color: black;
+    font-family: 'Kanit', sans-serif;
+
   }
   .about p{
     text-indent: 50px;
+    font-family: 'Kanit', sans-serif;
+
   }
  
   .work{
@@ -81,7 +89,7 @@ body{
   .work .img1{
     display: flex;
     justify-content: left;
-    gap: 15px;
+    gap: 13px;
     padding-bottom: 50px;
   }
   
@@ -94,6 +102,8 @@ body{
   justify-content: center;
   gap: 200px;
   color: black;
+  font-family: 'Kanit', sans-serif;
+
   
 }
 .service h1{
@@ -110,6 +120,8 @@ body{
   font-weight: 100;
   color: rgb(177, 174, 174);
   letter-spacing:   0.2px;
+  font-family: 'Kanit', sans-serif;
+
 }
 .part2{
   display: flex;
@@ -168,18 +180,13 @@ body{
   padding: 10px;
 
 }
-.fin{
-  background-color: black;
-  height: 120px;
-  width: 100%;
-  color: white;
-}
+
 .work .imag1{
-  background-image: url(./image/DSC03133.png);
+  background-image: url(./image//DJI_0191-29.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  width: 520px;
+  width: 510px;
   height: 550px;
   border-radius: 10px;
 
@@ -201,7 +208,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  width: 520px;
+  width: 510px;
   height: 550px;
   border-radius: 10px;
 
@@ -223,7 +230,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  width: 520px;
+  width: 510px;
   height: 550px;
   border-radius: 10px;
 
@@ -234,7 +241,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  width: 520px;
+  width: 510px;
   height: 550px;
   border-radius: 10px;
 }
@@ -252,7 +259,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  width: 520px;
+  width: 510px;
   height: 550px;
   border-radius: 10px;
 }
@@ -261,21 +268,18 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  width: 520px;
+  width: 510px;
   height: 550px;
   border-radius: 10px;
 }
 @media (max-width: 414px){
-  body{
-    width: 414px;
-  }
+  
+  
   .navbar{
     display: none;
     width: 414px;
   }
-  .video{
-    width: 414px;
-  }
+  
   .about{
     width: 414px;
   }
@@ -286,12 +290,13 @@ body{
     position: relative;
     height: 300px;
     top: 0px;
+    width: 412px;
   }
   .about p{
     text-indent: 5px;
   }
   .work{
-    width: 414px
+    width: 414px;
   }
    .work .img1 {
     display: inline;
@@ -346,8 +351,11 @@ body{
   }
   .service{
     width: 414px;
-    gap: 40px;
+    gap: 0px;
+    display: inline;
   }
+  
+ 
   .cantact h1{
     font-size: 15px;
     font-weight: 100;
@@ -360,13 +368,20 @@ body{
   
   .part2 form input {
     width: 350px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
   
-   .part2 form textarea{
+  .part2 form textarea{
     width:350px;
     height: 70px;
-    margin-left: 10px; 
+    margin-left: 20px; 
+  }
+  .button3 .bu3 button{
+    
+    position: relative;
+    left: 110px;
+    
+  
   }
   
   
